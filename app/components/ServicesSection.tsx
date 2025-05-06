@@ -16,6 +16,11 @@ const services = [
     description: 'Empowering holistic well-being through movement and mindfulness.',
     image: '/images/yoga.jpg',
   },
+  {
+    title: 'Software Services',
+    description: 'Software services designed to meet customer needs.',
+    image: '/images/education.jpg',
+  },
 ];
 
 export function ServicesSection() {

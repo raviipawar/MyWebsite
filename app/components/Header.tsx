@@ -12,16 +12,23 @@ export function Header() {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Services", href: "#services" },
-    { name: "Contact", href: "#contact" },
+    { name: "Services", href: "/services" },
+    { name: "Careers", href: "/careers" },
   ];
 
   return (
     <header className="bg-gray-900 text-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center py-6 px-4">
         {/* Logo */}
-        <div className="text-2xl font-bold">
-          <a href="/">MyBusiness</a>
+        <div className="flex items-center space-x-2">
+          <a href="/" className="flex items-center space-x-2">
+            <img
+              src="/images/applogo.png"
+              alt="Preyuda Softwares Logo"
+              className="h-16 w-16 rounded-full shadow-md"
+            />
+            <span className="text-2xl font-bold">PreyudaTech</span>
+          </a>
         </div>
 
         {/* Desktop Nav */}

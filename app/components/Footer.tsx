@@ -17,9 +17,10 @@ export function Footer() {
         <div>
           <h4 className="text-xl font-bold mb-4">Services</h4>
           <ul className="text-gray-400 text-sm space-y-2">
-            <li><a href="#" className="hover:underline">Healthcare Solutions</a></li>
-            <li><a href="#" className="hover:underline">E-Learning Platforms</a></li>
-            <li><a href="#" className="hover:underline">Yoga Programs</a></li>
+            <li><a href="/services" className="hover:underline">Healthcare Solutions</a></li>
+            <li><a href="/services" className="hover:underline">E-Learning Platforms</a></li>
+            <li><a href="/services" className="hover:underline">Yoga Programs</a></li>
+            <li><a href="/services" className="hover:underline">Software Solutions</a></li>
           </ul>
         </div>
 
@@ -27,8 +28,8 @@ export function Footer() {
           <h4 className="text-xl font-bold mb-4">Quick Links</h4>
           <ul className="text-gray-400 text-sm space-y-2">
             <li><a href="/about" className="hover:underline">About</a></li>
-            <li><a href="#services" className="hover:underline">Services</a></li>
-            <li><a href="#" className="hover:underline">Careers</a></li>
+            <li><a href="/services" className="hover:underline">Services</a></li>
+            <li><a href="/careers" className="hover:underline">Careers</a></li>
             <li><a href="#" className="hover:underline">Privacy Policy</a></li>
           </ul>
         </div>
@@ -66,7 +67,7 @@ export function Footer() {
         </div>
 
       </div>
-      <div className="text-center text-gray-500 text-xs mt-10">&copy; {currentYear} My Business. All rights reserved.</div>
+      <div className="text-center text-gray-500 text-xs mt-10">&copy; {currentYear} Preyuda Technologies. All rights reserved.</div>
     </footer>
   );
 }
