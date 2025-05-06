@@ -14,7 +14,7 @@ export default function Contact() {
         title: "Frontend Developer",
         department: "Engineering",
         location: "Remote / Pune",
-        experience: "2-4 years",
+        experience: "4 years",
         type: "Full-Time"
       }, {
         title: "DevOps Engineer",
